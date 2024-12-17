@@ -1,4 +1,4 @@
-[
+const movies = [
   {
     "id": 1,
     "title": "The Matrix",
@@ -240,7 +240,7 @@
     "summary": "A young boy defends his home from two burglars after being left behind by his family."
   }
 ]
-
+import MovieCard from "./components/MovieCard";
 function App() {
   return (
     <>
@@ -249,7 +249,16 @@ function App() {
       </nav>
       <main>
         <div className="vignettes">
-
+        {/* {filteredHouse.length ? (
+          filteredHouse.map((house) => (
+            <HouseCard key={house.id} house={house} />
+          ))
+        ) : (
+          <p>Aucun résultat</p>
+        )} */}
+        {movies.map((movie)=>(
+        <MovieCard key={movie.id} movie={movie}/>
+      ))}
 
         </div>
       </main>
