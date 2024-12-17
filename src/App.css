@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #111111;
+    color: white;
+}
+
+h1{
+    background-color: red;
+    text-align: center;
+    padding: 2rem;
+    font-family: "Anton", sans-serif;
+    font-size: 4rem;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+img {
+    margin:0 auto;
+    margin-top: 2rem;
+    width: 6rem;
+    object-fit: cover;
+}
+
+.vignettes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    flex : 1;
+    flex-direction: column;
+    border: 1px solid azure;
+    min-width: 15rem;
+    
+    
+
+}
