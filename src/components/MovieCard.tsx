@@ -28,7 +28,11 @@ export default function MovieCard ({ movie }: MoviesType) {
     const hundleClickAlert=() => {
       alert(movie.quote)
     }
-
+    const [note, setNote] = useState("");
+    const userNote = (event : React.ChangeEvent<HTMLInputElement>) =>{
+        setNote(event.currentTarget.value);
+    }
+    
     return (
     <>
     <article className= {seen ? "": "gray" }>
@@ -37,7 +41,8 @@ export default function MovieCard ({ movie }: MoviesType) {
     
     <p>sortie: {movie.year}</p>
     
-    <p>ma note : {movie.note} / 10</p>
+    <p>la note des utilisateurs: {(movie.note + Number(note))/2} / 10</p>
+    <p>ma note:  / 10</p><input type='number' onChange={userNote} />
     <div className="classbouton">
     <input type="checkbox" id="seen" value="seen" onClick={handleClickSeen}/>
     <label htmlFor="seen">vu</label>

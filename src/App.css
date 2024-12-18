@@ -64,6 +64,7 @@ article {
     background-color: hsla(26, 98%, 50%, 0.141);
     border-radius: 30px;
     margin: 0.7rem;
+    
 }
     
     
@@ -102,6 +103,8 @@ article {
 }
 
 button{
-    background-color: black;
+    background-color: transparent;
+    border:none;
+    
 }
 

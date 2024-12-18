@@ -12,7 +12,7 @@ const movies = [
     "quote": "There is no spoon.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 8,
     "summary": "A hacker discovers the world he lives in is a simulated reality and joins a rebellion to free humanity.",
     "duration": "2h16" // 136 minutes
   },
@@ -26,7 +26,7 @@ const movies = [
     "quote": "I'm the king of the world!",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 7,
     "summary": "A young artist falls in love with an aristocrat aboard the ill-fated R.M.S. Titanic.",
     "duration": "3h15" // 195 minutes
   },
@@ -40,7 +40,7 @@ const movies = [
     "quote": "Life finds a way.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 9,
     "summary": "Scientists create a dinosaur theme park, but chaos ensues when the creatures escape.",
     "duration": "2h07" // 127 minutes
   },
@@ -68,7 +68,7 @@ const movies = [
     "quote": "Life is like a box of chocolates. You never know what you're gonna get.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 6,
     "summary": "A simple man recounts his extraordinary life and his impact on history.",
     "duration": "2h22" // 142 minutes
   },
@@ -82,7 +82,7 @@ const movies = [
     "quote": "Hakuna Matata!",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 7,
     "summary": "A lion cub learns about responsibility and courage after tragedy strikes his family.",
     "duration": "1h28" // 88 minutes
   },
@@ -110,7 +110,7 @@ const movies = [
     "quote": "As far back as I can remember, I always wanted to be a gangster.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 8,
     "summary": "The rise and fall of a young man in the Mafia, and its toll on his family and associates.",
     "duration": "2h26" // 146 minutes
   },
@@ -124,7 +124,7 @@ const movies = [
     "quote": "Earn this.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 10,
     "summary": "During World War II, a group of soldiers embarks on a mission to save a paratrooper.",
     "duration": "2h49" // 169 minutes
   },
@@ -152,7 +152,7 @@ const movies = [
     "quote": "I see dead people.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 4,
     "summary": "A young boy communicates with spirits, and a psychologist tries to uncover the truth.",
     "duration": "1h47" // 107 minutes
   },
@@ -166,7 +166,7 @@ const movies = [
     "quote": "Whoever saves one life, saves the world entire.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 6,
     "summary": "The true story of a man who saved over a thousand Jews during the Holocaust.",
     "duration": "3h15" // 195 minutes
   },
@@ -194,7 +194,7 @@ const movies = [
     "quote": "To infinity and beyond!",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 8,
     "summary": "A group of toys come to life and embark on an adventure to reunite with their owner.",
     "duration": "1h21" // 81 minutes
   },
@@ -208,7 +208,7 @@ const movies = [
     "quote": "What's in the box?!",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 9,
     "summary": "Two detectives hunt a serial killer who uses the seven deadly sins as his motive.",
     "duration": "2h07" // 127 minutes
   },
@@ -222,7 +222,7 @@ const movies = [
     "quote": "The Dude abides.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 6,
     "summary": "A laid-back bowler gets caught up in a kidnapping case by mistake.",
     "duration": "1h57" // 117 minutes
   },
@@ -236,7 +236,7 @@ const movies = [
     "quote": "Do you trust me?",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 9,
     "summary": "A street rat finds a magic lamp and teams up with a genie to win the heart of a princess.",
     "duration": "1h30" // 90 minutes
   },
@@ -250,7 +250,7 @@ const movies = [
     "quote": "Hasta la vista, baby.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 10,
     "summary": "A cyborg is sent back in time to protect a young boy from a more advanced robot.",
     "duration": "2h17" // 137 minutes
   },
@@ -264,7 +264,7 @@ const movies = [
     "quote": "Good morning, and in case I don't see you, good afternoon, good evening, and good night!",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 4,
     "summary": "A man discovers his entire life is a reality TV show and tries to escape.",
     "duration": "1h43" // 103 minutes
   },
@@ -278,7 +278,7 @@ const movies = [
     "quote": "Keep the change, ya filthy animal.",
     "seen": true,
     "toWatch": true,
-    "note": 5,
+    "note": 10,
     "summary": "A young boy defends his home from two burglars after being left behind by his family.",
     "duration": "1h43" // 103 minutes
   }
@@ -320,7 +320,7 @@ function App() {
 
         </div>
       </main>
-      <footer>Cours Forrest "COUUUURS"</footer>
+      <footer>QUE LA FORCE SOIT AVEC VOUS LES WILDERS ! PAS DE LIMITE A MON POUVOIR AVEC REACT !!!!</footer>
     </>
   );
 }
