@@ -1,3 +1,4 @@
+import { useState } from "react";
 interface MoviesType {
     movie :{
         id:number; 
@@ -15,27 +16,35 @@ interface MoviesType {
 }
 
 export default function MovieCard ({ movie }: MoviesType) {
-    // const [seen, setSeen] = useState(movie.seen);
-    // const handleClickSeen = () => {
-    //   setSeen(!seen);
-    // };
-    // const [toWatch, setToWatch] = useState(movie.toWatch);
-    // const handleClickToWatch = () => {
-    //   setToWatch(!toWatch);
-    // };
+    const [seen, setSeen] = useState(movie.seen);
+    const handleClickSeen = () => {
+      setSeen(!seen);
+    };
+    const [toWatch, setToWatch] = useState(movie.toWatch);
+    const handleClickToWatch = () => {
+      setToWatch(!toWatch);
+    };
+    
+    const hundleClickAlert=() => {
+      alert(movie.quote)
+    }
+
     return (
     <>
-    <article>
-    <img src={movie.poster} alt={movie.title} />
+    <article className= {seen ? "": "gray" }>
     <h2>{movie.title}</h2>
-    <p>{movie.year}</p>
+    <button type='button' onClick={hundleClickAlert}><img src={movie.poster} alt={movie.title} /></button>
+    
+    <p>sortie: {movie.year}</p>
     
     <p>ma note : {movie.note} / 10</p>
-    <input type="radio" id="seen" value="seen" checked />
+    <div className="classbouton">
+    <input type="checkbox" id="seen" value="seen" onClick={handleClickSeen}/>
     <label htmlFor="seen">vu</label>
-    <input type="radio" id="toWatch" value="toWatch" checked />
+    <input type="checkbox" id="toWatch" value="toWatch" onClick={handleClickToWatch}/>
     <label htmlFor="toWatch">à voir</label>
-    
+    </div>
     </article>
+    
     </>)
 }
