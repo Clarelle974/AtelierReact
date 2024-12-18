@@ -48,6 +48,7 @@ img {
 }
 
 article {
+<<<<<<< HEAD
   display: flex;
   flex-wrap: wrap;
   flex: 1;
@@ -109,3 +110,77 @@ button {
 .hidden {
   display: none;
 }
+=======
+    display: flex;
+    flex-wrap: wrap;
+    flex : 1;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FF842057;
+    min-width: 15rem;
+    align-content: center;
+    padding-bottom: 1rem;
+    background-color: hsla(26, 98%, 50%, 0.141);
+    border-radius: 30px;
+    margin: 0.7rem;
+    color:#fae1d0;
+    
+}
+    
+    
+    .classbouton{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    }
+
+    footer{
+        background-color: #15100D;
+        color: #FFDFC9;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .filter{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .filter input{
+        border-radius: 30px;
+        height: 2rem;
+        width: 20rem;
+        text-align: center;
+        border: 1px solid #FF842057;
+        background-color: #FB6D0324;
+    }
+
+.gray{
+    opacity: 0.33;
+}
+
+button{
+    background-color: transparent;
+    border:none;  
+}
+
+input{
+    color:#FFDFC9;
+    background-color: #FB6D0324;
+    border:none;
+    text-align: center;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  
+>>>>>>> 51895573db543d2e742d71c6382b1c87727dc211
